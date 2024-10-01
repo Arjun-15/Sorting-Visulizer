@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 // // Styled SVG for the Reset Icon (Rotating Left Arrow with Dotted Ends)
 // const ResetIconSvg = styled.svg`
@@ -31,7 +31,6 @@ import styled from 'styled-components';
 //   </ResetIconSvg>
 // );
 
-
 const PlayIconSvg = styled.svg`
   width: 50px;
   height: 50px;
@@ -60,7 +59,6 @@ export const PauseIcon = () => (
     <rect x="60" y="20" width="10" height="60" />
   </PauseIconSvg>
 );
-
 
 const PreviousIconSvg = styled.svg`
   width: 50px;
@@ -93,10 +91,6 @@ export const NextIcon = () => (
   </NextIconSvg>
 );
 
-
-
-
-
 const IconContainer = styled.svg`
   width: 40px;
   height: 40px;
@@ -124,7 +118,7 @@ const Arrow = styled.path`
   fill: #000;
 `;
 
-export const ResetIcon  = () => {
+export const ResetIcon = () => {
   return (
     <IconContainer viewBox="0 0 24 24">
       <Circle cx="12" cy="12" r="10" />
@@ -134,14 +128,3 @@ export const ResetIcon  = () => {
     </IconContainer>
   );
 };
-
-
-
-export const StyledInput = styled.input`
-    text-align: left;
-    font-size: large;
-    width: ${props => props.width || '98%'};
-    padding: 5px;
-    margin-left:${props => props.marginLeft || 'auto'};
-    margin-top:${props => props.marginTop || 'auto'};
-`
