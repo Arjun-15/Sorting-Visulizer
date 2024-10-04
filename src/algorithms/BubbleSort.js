@@ -4,6 +4,7 @@ const BubbleSort = (array, position, arraySteps, colorSteps) => {
   //   debugger;
   //   let colorKey = colorSteps[colorSteps.length - 1];
   //   console.log("color steps", colorSteps);
+
   // Initialize colorKey with the same length as the array
   let colorKey = new Array(array.length).fill(0);
   console.log(colorKey);
