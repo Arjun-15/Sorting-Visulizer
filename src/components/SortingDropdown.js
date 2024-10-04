@@ -1,15 +1,5 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import shellSort from "../algorithms/ShellSort";
-import bucketSort from "../algorithms/BucketSort";
-import BubbleSort from "../algorithms/BubbleSort";
-import insertionSort from "../algorithms/InsertionSort";
-import radixSort from "../algorithms/RadixSort";
-import selectionSort from "../algorithms/SelectionSort";
-import mergeSort from "../algorithms/MergeSort";
-import quickSort from "../algorithms/QuickSort";
-import heapSort from "../algorithms/HeapSort";
-import countingSort from "../algorithms/CountingSort";
 
 // Styled components for Dropdown
 const DropdownContainer = styled.div`
@@ -136,16 +126,3 @@ const SortingDropdown = ({ algorithm, selectDrop }) => {
 };
 
 export default SortingDropdown;
-
-export const NameOfSortingAlgorithm = {
-  "Bubble Sort": BubbleSort,
-  "Insertion Sort": insertionSort,
-  "Selection Sort": selectionSort,
-  "Merge Sort": mergeSort,
-  "Quick Sort": quickSort,
-  "Heap Sort": heapSort,
-  "Radix Sort": radixSort,
-  "Counting Sort": countingSort,
-  "Bucket Sort": bucketSort,
-  "Shell Sort": shellSort,
-};
