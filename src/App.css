@@ -1,0 +1,6 @@
+.app{
+  display: flex;
+}
+.app-child{
+  flex: 1 0 0;
+}
