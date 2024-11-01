@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# About me 
+I am Arjun Sharma.
+9927371875
+if any problem in this code and redudency then connect me as506347@gmail.com
+
 ## Available Scripts
 
 In the project directory, you can run:
